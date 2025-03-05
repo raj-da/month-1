@@ -17,6 +17,6 @@ def largest(array):
     """returns largest value in a list"""
     max_ = array[0]
     for num in array[1:]:
-        max_ = max(max_s num)
+        max_ = max(max_, num)
 
     return max_
